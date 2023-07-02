@@ -9,7 +9,7 @@
   </head>
   <body>
     <nav
-      class="flex items-center justify-between p-1 bg-gray-800 bg-fixed px-20 h-16"
+      class="flex items-center justify-between p-1 bg-slate-800 fixed w-screen px-20 h-16 top-0 left-0"
     >
       <div class="flex items-center">
         <h1 class="text-xl font-bold text-white">Biblio</h1>
@@ -107,15 +107,10 @@
         </li>
       </ul>
     </div>
+    <main
+      class="bg-slate-950 h-screen bg-no-repeat bg-top bg-cover bg-[url('/images/hero-bg.jpg')] mt-16"
+    ></main>
 
-    <!-- JavaScript to toggle the expanded menu -->
-    <script>
-      const menuToggle = document.getElementById("menu-toggle")
-      const expandedMenu = document.getElementById("expanded-menu")
-
-      menuToggle.addEventListener("click", () => {
-        expandedMenu.classList.toggle("hidden")
-      })
-    </script>
+    <script src="index.js"></script>
   </body>
 </html>
