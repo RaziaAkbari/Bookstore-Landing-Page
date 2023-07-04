@@ -5,3 +5,12 @@
 nav {
   z-index: 1;
 }
+main {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.4)),
+    url(../images/hero-bg.jpg) !important;
+  background-repeat: no-repeat;
+
+  background-size: cover !important;
+  background-repeat: no-repeat;
+  background-position: top !important;
+}
